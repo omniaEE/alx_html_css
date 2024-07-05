@@ -1,0 +1,232 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.midel {
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+ul {
+    padding-right: 150px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 2;
+
+  }
+nav ul li {
+    margin: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+nav .logo {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+    
+}
+nav img {
+    width: 4rem;
+}
+.home {
+    background-image: url("./images/Object.png");
+
+}
+.sec-1, .sec-3, .membership, .faq, .footer {
+    
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 7rem;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-bottom: 7px;
+    margin-top: 150px;
+
+}
+/* .sec-1-sb {
+    display: flex;
+    flex-direction: column;
+    
+} */
+.sec-1-button {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sec-1-span {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+span {
+    padding-left: 40px;
+    color: #FFFFFF;
+}
+button {
+
+  background: #C271FF;
+  border-radius: 999px;
+  box-shadow: #3e3e43 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.sec-1 h2 {
+    margin-top: 150px;
+    color: #FFFFFF;
+}
+.achive {
+    padding: 100px 100px 0 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.white {
+    color: #FFFFFF;
+}
+.sec-2 {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #C271FF;
+}
+.sec-3 {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.sec-2-img {
+    margin: 30px;
+}
+.sec-2-text {
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.sec-3-feed {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-self: center;
+}
+.sec-3 .hea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sec-3 h2, .membership h2 {
+    font-size: 3rem;
+    
+}
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+.Phillip img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.Phillip {
+   
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+.membership button {
+    align-self: center;
+}
+.member {
+    width: 20%;
+
+}
+.member h3 {
+  
+    padding-bottom: 30px;
+}
+.membership   {
+    color: #FFFFFF;
+    background-color:#071629;
+    height: 600px;
+}
+
+.q {
+    width: 30%;
+  
+
+}
+.faq {
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.q h3 {
+    margin-bottom: 50px;
+}
+footer {
+    display: flex;
+    background-color: #071629;
+    justify-content: center;
+
+}
+.footer {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.footer i,.footer p, .j {
+    color: #FFFFFF;
+    align-self:center;
+}
