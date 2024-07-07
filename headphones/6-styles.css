@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    padding-top: 20px;
+}
+header .logo {
+    width: 70%;
+    float: left;
+}
+.nav-bar {
+    width: 30%;
+    float: left;
+}
+.nav-bar ul {
+    list-style: none;
+}
+.nav-bar li {
+   
+    display: inline-block;
+}
+.nav-bar li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+.nav-bar li a:hover {
+    color: #FF6565;
+}
+.hero {
+    height: 100vh;
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-size: cover;
+}
+.mide {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 90vh;
+    padding: 5%;
+    padding-top: 20%;
+}
+.center {
+    align-self: center;
+}
+.mide button {
+    margin: 70px;
+}
+p {
+    width: 50%;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+button, .btn {
+
+  background: #FF6565;
+  border-radius: 999px;
+  box-shadow: #3e3e43 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.about {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+
+}
+.about-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+
+}
+.icon {
+    height: 160px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon-img {
+    width: 15%;
+    
+    
+    color:#FF6565;
+}
+/* for hamburger menue  */
+.hide-on-reg-style {
+    display: none;
+  }
+@media (max-width:750px) {
+    .hide-on-reg-style{display: block;
+    padding: 0;}
+
+    .hide-on-small {
+        display: none;
+    }
+    .show-on-small{
+        display:block;
+        padding: 0 ;
+    
+    }
+    .search-box {
+        width: 250px;
+        height: 30px;
+    }
+    .sidebar ul li {
+        width: 100%;
+       
+     
+        
+      }
+    .sidebar ul a:hover {
+        background-color: #f0f0f0;
+    
+    }
+    .sidebar ul a {
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        cursor: pointer;
+      }
+
+    
+
+}
+/*  */
+
+  
+  
+  
+  /* the sidebar */
+.sidebar ul {
+    list-style-type: none;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color:white;
+    z-index: 100;
+    box-shadow: -2px 2px 2px 1px rgba(57, 76, 96, 0.15);
+    
+    
+  }
+  
+  /* 3. "Our results" section*/
+.our-results {
+    height: 100vh;
+    background-size: cover;
+    
+    background-image: url(./images/headphones_hero_2.jpg);
+  }
+
+.our-results h1, .our-results h2,  .our-results p {
+    color: #fff;
+  }
+.our-results h1 {
+    font-size: 3rem;
+  }
+.re-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.re-icon {
+    height: 190px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./images/pentagone.png");
+    background-size: cover;
+}
+ /* contact us  */
+input[type=text] {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #8e8e98;
+    margin-bottom: 50px;
+  }
+.contact-sec {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+
+    
+}
+form {
+    width: 400px;
+}
+label {
+    /* padding: 10px; */
+    padding-top: 100px;
+}
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #071629;
+    justify-content: center;
+
+}
+.footer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.footer i,.footer p, .j {
+    color: #FFFFFF;
+    align-self:center;
+    padding-right: 30px;
+}
+.footer img {
+    margin: 30px;
+}
+footer p {
+    align-self: center;
+    color: #8e8e98;
+}
